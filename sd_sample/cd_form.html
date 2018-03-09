@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <html lang="en">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="admin.css">
+    <title>cart-html</title>
+</head>
+<body>
+    <!-- ここからコードを書きましょう -->
+    <!-- header -->
+    <header>
+    <!-- nav -->
+   <nav class="clearfix">
+          <div class="nav-list clearfix header_nav">
+            <a href="admin.html"><div class="nav-list-item">TOP</div></a>
+            <a href="cd_form.html"><div class="nav-list-item">CDの追加</div></a>
+            <a href="user_index.html"><div class="nav-list-item">ユーザー<br>一覧</div></a>
+            <a href="artist.html"><div class="nav-list-item">アーティスト<br>設定</div></a>
+            <a href="genre.html"><div class="nav-list-item">ジャンル<br>設定</div></a>
+            <a href="campaign.html"><div class="nav-list-item">キャンペーン<br>設定</div></a>
+            <a href="postage.html"><div class="nav-list-item">送料設定</div></a>
+            <a href="review_history.html"><div class="nav-list-item">レビュー<br>履歴</div></a>
+            <a href="cart_history.html"><div class="nav-list-item">購入履歴</div></a>
+            <a href="top_image_edit.html"><div class="nav-list-item">Topイメージ<br>設定</div></a>
+          </div>
+        </nav>
+    </header>        
+    <div class="title-headline">ADD CD</div>
+    <div class="col-lg-10 col-lg-offset-1">
+
+        <div class="col-lg-8 col-lg-offset-2">
+            <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="image">ジャケットイメージ:</label>
+                        <div class="col-sm-8"> 
+                            <input type="file" id="image" placeholder="image">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="sel1" class="control-label col-sm-4" for="genre">ジャンル:</label>
+                      <div class="col-sm-8"> 
+                      <select class="form-control" id="sel1">
+                        <option>Hiphop</option>
+                        <option>Rock</option>
+                        <option>jazz</option>
+                        <option>J-POP</option>
+                        <option>K-POP</option>
+                      </select>
+                    </div>
+                </div>
+                    <div class="form-group">
+                      <label for="sel1" class="control-label col-sm-4" for="genre">アーティスト名:</label>
+                      <div class="col-sm-8"> 
+                      <select class="form-control" id="sel1">
+                        <option>aiko</option>
+                        <option>安室奈美江</option>
+                        <option>絢香</option>
+                        <option>モーニング娘。</option>
+                        <option>カラヤン</option>
+                      </select>
+                    </div>
+                </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="album_name">アルバム名:</label>
+                <div class="col-sm-8">
+                  <input type="string" class="form-control" id="album_name" placeholder="album_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="album_kana_name">アルバム名(カナ):</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="form-control" id="album_kana_name" placeholder="album_kana_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="label">レーベル名:</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="form-control" id="label" placeholder="label">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="price">価格(税抜):</label>
+                <div class="col-sm-8"> 
+                  <input type="integer" class="price" id="price" placeholder="price">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="release_date">リリース日:</label>
+                <div class="col-sm-8"> 
+                  <input type="date" class="release_date" id="release_date" placeholder="release_date">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="comment">CD紹介:</label>
+                <div class="col-sm-8"> 
+                  <textarea type="text" class="form-control" id="cd_introduction" placeholder="cd_introduction" rows="5">
+                </textarea>
+
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="stock">在庫数:</label>
+                <div class="col-sm-8"> 
+                  <input type="integer" class="form-control" id="stock" placeholder="stock">
+                </div>
+              </div>
+            </div>
+        </form>
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="right">
+              <a href="song.html">
+                <button class="btn btn-success">CD作成</button>
+              </a>
+          </div>
+    </div>
+</div>
+
