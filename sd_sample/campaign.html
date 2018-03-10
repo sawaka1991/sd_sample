@@ -47,6 +47,19 @@
                         <input type="integer" class="form-control" id="discount" placeholder="discount">
                     </div>
                 </div>
+                 <div class="form-group">
+                    <label class="control-label col-sm-4 nav-text" for="discount">on/off:</label>
+                    <div class="col-sm-8"> 
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">on
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">off</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </form>
         <div class="right">
             <a href="artist.html"><button class="btn btn-warning">create</button></a>
@@ -60,6 +73,7 @@
                             <tr>
                                 <td>キャンペーン名</td>
                                 <td>割引率</td>
+                                <td>on/off</td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -68,18 +82,21 @@
                             <tr>
                                 <td>春キャン</td>
                                 <td>*0.9</td>
+                                <td>on</td>
                                 <td><a href="genre.html"><button class="btn btn-success">edit</button></a></td>
                                 <td><a href="genre.html"><button class="btn btn-danger">destroy</button></a></td>
                             </tr>
                             <tr>
                                 <td>新春初売りセール</td>
                                 <td>*0.5</td>
+                                <td>off</td>
                                 <td><a href="campaign.html"><button class="btn btn-success">edit</button></a></td>
                                 <td><a href="campaign.html"><button class="btn btn-danger">destroy</button></a></td>
                             </tr>
                             <tr>
                                 <td>感謝祭</td>
                                 <td>*0.3</td>
+                                <td>off</td>
                                 <td><a href="campaign.html"><button class="btn btn-success">edit</button></a></td>
                                 <td><a href="campaign.html"><button class="btn btn-danger">destroy</button></a></td>
                             </tr>

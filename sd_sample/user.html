@@ -17,21 +17,22 @@
 <body>
     <!-- ここからコードを書きましょう -->
     <!-- header -->
-    <header>
+    <header class="navbar-fixed-top">
     <!-- nav -->
         <nav class="clearfix">
-       		<div class="title">sugerdog。</div>
-   			 	 	<div class="search-box">
-		    		  <div class="search-title">search</div>
-		      		  <input type="text" class="form-control">
-		  			</div>
-        	<ul class="nav-list clearfix">
-        		<li class="nav-list-item fa fa-sign-out nav-box"><br><a class="nav-text">logout</a></li>
-        		<li class="nav-list-item fa fa-user nav-box"><br><a class="nav-text" href="user.html">hello!user</a></li>
-        		<li class="nav-list-item fa fa-shopping-cart nav-box"><br><a class="nav-text" href="cart_index.html">cart</a></li>
-        		<li class="nav-list-item fa fa-home nav-box"><br><a class="nav-text" href="index.html">home</a></li>
-        	</ul>
-        </nav>
+          <div class="title">sugerdog。</div>
+      <div class="search-box">
+        <div class="search-title">search</div>
+          <input type="text" class="form-control">
+      </div>
+        <ul class="nav-list clearfix">
+            <a href="user.html" class="nav-list-item"><li class="fa fa-user white"><br><div class="nav-text white">my menu</div></li></a>
+            <a href="" class="nav-list-item"><li class="fa fa-sign-out white"><br><div class="nav-text white">logout</div></li></a>
+            <a href="" class="nav-list-item"><li class="fa fa-sign-out white"><br><div class="nav-text white">logout</div></li></a>
+            <a href="index.html" class="nav-list-item"><li class="fa fa-home white"><br><div class="nav-text white">home</div></li></a>
+            <a href="cart_index.html" class="nav-list-item"><li class="fa fa-shopping-cart white"><br><div class="nav-text white">cart</div></li></a>
+        </ul>
+    </nav>
     </header>
     <!-- side bar -->
 
@@ -59,7 +60,7 @@
 	    	<div class="col-lg-8 col-lg-offset-2">
 	    		<div class="title-headline">基本情報</div>
 	    			<ul class="list-group">
-					  <li class="list-group-item list-group-item-danger">基本情報</li>
+					  <li class="list-group-item list-group-item-info">基本情報</li>
 					  <li class="list-group-item">						  		
 	  					    <table class="table">
 						    <thead>
@@ -94,8 +95,8 @@
 								  						  sugerdog。様<br>
 								  					      080-0000-0000<br>
 							      <div class="right">
-								  	<a href="delivery.html"><button class="btn btn-success">edit</button></a>
-									<a href="user.html"><button class="btn btn-danger">destroy</button></a>
+								  	<a href="delivery.html"><button class="btn btn-default edit">edit</button></a>
+									<a href="user.html"><button class="btn btn-default destroy">destroy</button></a>
 		    					  </div>
 							  </li>
 						  </ul>
@@ -106,8 +107,8 @@
 								  						  　sugerdog。様<br>
 								  					    	080-0000-0000<br>
 	   					    	  <div class="right">
-								   	<a href="delivery.html"><button class="btn btn-success">edit</button></a>
-     	  					    	<a href="user.html"><button class="btn btn-danger">destroy</button></a>								  		
+								   	<a href="delivery.html"><button class="btn btn-default edit">edit</button></a>
+     	  					    	<a href="user.html"><button class="btn btn-default destroy">destroy</button></a>								  		
      	  					    </div>
 							  </li>
 						  </ul>
