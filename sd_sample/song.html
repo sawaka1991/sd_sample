@@ -39,6 +39,15 @@
         <div class="col-lg-8 col-lg-offset-2" style="font-size: 12px">
             <form class="form-horizontal">
               <div class="form-group">
+                <label class="control-label col-sm-4" for="price">ディスクナンバー:</label>
+                <div class="col-sm-8"> 
+                  <input type="integer" class="num" id="num" placeholder="disc_num">
+                </div>
+              </div>
+              <!-- ここからnested form!!! -->
+             <div style="text-align: center"> 曲の登録</div>
+            <form class="form-horizontal">
+              <div class="form-group">
                 <label class="control-label col-sm-4" for="price">曲順:</label>
                 <div class="col-sm-8"> 
                   <input type="integer" class="num" id="num" placeholder="order_num">
@@ -69,42 +78,85 @@
                   <input type="string" class="singer_name" id="singer_name" placeholder="singer_name">
                 </div>
 			  </div>
+              <!-- ここまでをnested formで繰り返したい -->
+                           <div style="text-align: center"> 曲の登録</div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="price">曲順:</label>
+                <div class="col-sm-8"> 
+                  <input type="integer" class="num" id="num" placeholder="order_num">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="song_name">曲名:</label>
+                <div class="col-sm-8">
+                  <input type="string" class="form-control" id="song_name" placeholder="song_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="song_kana_name">曲名(カナ):</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="form-control" id="song_kana_name" placeholder="song_kana_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="time">時間:</label>
+                <div class="col-sm-8"> 
+                  <input type="time" class="form-control" id="time" placeholder="time">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="singer_name">アーティスト名:</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="singer_name" id="singer_name" placeholder="singer_name">
+                </div>
+              </div>
+                           <div style="text-align: center"> 曲の登録</div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="price">曲順:</label>
+                <div class="col-sm-8"> 
+                  <input type="integer" class="num" id="num" placeholder="order_num">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="song_name">曲名:</label>
+                <div class="col-sm-8">
+                  <input type="string" class="form-control" id="song_name" placeholder="song_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="song_kana_name">曲名(カナ):</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="form-control" id="song_kana_name" placeholder="song_kana_name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="time">時間:</label>
+                <div class="col-sm-8"> 
+                  <input type="time" class="form-control" id="time" placeholder="time">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="singer_name">アーティスト名:</label>
+                <div class="col-sm-8"> 
+                  <input type="string" class="singer_name" id="singer_name" placeholder="singer_name">
+                </div>
+              </div>
               <div class="right"> 
                 <div class="col-sm-offset-2 col-sm-10">
+                    <div class="left">
                     <a href="disc.html">
-                        <button type="submit" class="btn btn-success">song登録</button>
+                        <button type="submit" class="btn btn-success">まだsong追加する??</button>
                     </a>
+                </div>
                 </div>
             </div>
         </form>
-        <div class="title-headline">ADD DISC</div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <td>1</td>
-                    <td>モーニングコーヒー (20th Anniversary Ver.)</td>
-                    <td>モーニングコーヒー</td>
-                    <td>モーニング娘。20th </td>
-                    <td>03:45</td>
-                </tr>
-            </thead>
-            <tbody>
-            	<tr>
-                    <td>2</td>
-                    <td>WE ARE LEADERS！ ～リーダーってのもつらいもの～</td>
-                    <td>ウィーアーリーダーズ</td>
-                    <td>モーニング娘。リーダーズ(中澤裕子、飯田圭織、矢口真里、吉澤ひとみ、藤本美貴、高橋愛、新垣里沙、道重さゆみ、譜久村聖) </td>
-                    <td>4:30</td>
-            	</tr>
-            	<tr>
-                    <td>3</td>
-                    <td> 花が咲く 太陽浴びて</td>
-                    <td>ハナガサクタイヨウアビテ</td>
-                    <td>モーニング娘。'18</td>
-                    <td>4:24</td>
-            	</tr>
-            </tbody>
-        </table>
+
+
         <div class="right">
         	<a href="song.html">
                 <button class="btn btn-success">disc追加</button>
