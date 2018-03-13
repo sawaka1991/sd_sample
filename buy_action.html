@@ -20,18 +20,22 @@
     <!-- nav -->
         <nav class="clearfix">
           <div class="title">sugerdog。</div>
-      <div class="search-box">
-        <div class="search-title">search</div>
-          <input type="text" class="form-control">
-      </div>
-        <ul class="nav-list clearfix">
-          <a href="index.html" class="nav-list-item"><div class="white"><div class="nav-text white">home</div></div></a>
-            <a href="sign_up.html" class="nav-list-item"><div class="nav-text white">sign up</div></div></a>
-            <a href="login.html" class="nav-list-item"><div class="nav-text white">login</div></div></a>
-            <a href="user.html" class="nav-list-big"><div class="nav-text white">my<br>menu</div></a>
-            <a href="cart_index.html" class="nav-list-big"><li class="fa fa-shopping-cart white" style="font-size: 45px"><br><div class="nav-text white">cart</div></li></a>
-        </ul>
-    </nav>
+            <div class="search-box">
+              <form>
+                <dl>
+                  <dt><input class="search-form" type="text" name="search" placeholder="Search" value=""></dt>
+                  <dd><a href="search.html"><button class="search-button fa fa-search"></button></a></dd>
+                </dl>
+              </form>
+            </div>
+            <ul class="nav-list clearfix">
+              <a href="index.html" class="nav-list-item"><div class="white"><div class="nav-text white">home</div></div></a>
+                <a href="sign_up.html" class="nav-list-item"><div class="nav-text white">sign up</div></div></a>
+                <a href="login.html" class="nav-list-item"><div class="nav-text white">login</div></div></a>
+                <a href="user.html" class="nav-list-big"><div class="nav-text white">my<br>menu</div></a>
+                <a href="cart_index.html" class="nav-list-big"><li class="fa fa-shopping-cart white" style="font-size: 45px"><br><div class="nav-text white">cart</div></li></a>
+            </ul>
+        </nav>
     </header>
 
 
@@ -62,7 +66,7 @@
                                            ※受取り手数料：108円
               </div>
               <div class="right" style="margin-top: 30px">
-                <a href="delivery.html"><button class="btn btn-success">お届け先を追加</button></a>
+                <a href="delivery.html"><button class="btn btn-default write">お届け先を追加</button></a>
               </div>
             </div>
             <h2 class="buy_title">Pay</h2>
@@ -91,10 +95,10 @@
             </div>
             <div class="right">
             <a href="cart_index.html">
-              <button class="btn btn-success">戻る</button>
+              <button class="btn btn-default edit">戻る</button>
             </a>
             <a href="cart_show.html">
-              <button class="btn btn-primary">進む</button>
+              <button class="btn btn-default create">進む</button>
             </a>
           </div>
         </div>
