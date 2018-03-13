@@ -12,7 +12,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="sugerdog.css">
-    <title>cd_show</title>
+    <title>sugerdog.</title>
 </head>
 <body>
     <!-- ここからコードを書きましょう -->
@@ -22,15 +22,19 @@
         <nav class="clearfix">
           <div class="title">sugerdog。</div>
       <div class="search-box">
-        <div class="search-title">search</div>
-          <input type="text" class="form-control">
+        <form>
+          <dl>
+            <dt><input class="search-form" type="text" name="search" placeholder="Search" value=""></dt>
+            <dd><a href="search.html"><button class="search-button fa fa-search"></button></a></dd>
+          </dl>
+        </form>
       </div>
         <ul class="nav-list clearfix">
-            <a href="user.html" class="nav-list-item"><li class="fa fa-user white"><br><div class="nav-text white">my menu</div></li></a>
-            <a href="" class="nav-list-item"><li class="fa fa-sign-out white"><br><div class="nav-text white">logout</div></li></a>
-            <a href="" class="nav-list-item"><li class="fa fa-sign-out white"><br><div class="nav-text white">logout</div></li></a>
-            <a href="index.html" class="nav-list-item"><li class="fa fa-home white"><br><div class="nav-text white">home</div></li></a>
-            <a href="cart_index.html" class="nav-list-item"><li class="fa fa-shopping-cart white"><br><div class="nav-text white">cart</div></li></a>
+          <a href="index.html" class="nav-list-item"><div class="white"><div class="nav-text white">home</div></div></a>
+            <a href="sign_up.html" class="nav-list-item"><div class="nav-text white">sign up</div></div></a>
+            <a href="login.html" class="nav-list-item"><div class="nav-text white">login</div></div></a>
+            <a href="user.html" class="nav-list-big"><div class="nav-text white">my<br>menu</div></a>
+            <a href="cart_index.html" class="nav-list-big"><li class="fa fa-shopping-cart white" style="font-size: 45px"><br><div class="nav-text white">cart</div></li></a>
         </ul>
     </nav>
     </header>
@@ -43,13 +47,13 @@
         <div class="category-box">
           <h2>category</h2>
           <h3>
-            <li><a href="" title="J-pop">J-pop</a></li>
-            <li><a href="" title="K-pop">K-pop</a></li>
-            <li><a href="" title="Hiphop">Hiphop</a></li>
-            <li><a href="" title="classic">classic</a></li>
-            <li><a href="" title="Kids">Kids</a></li>
-            <li><a href="" title="Anime">Anime</a></li>
-            <li><a href="" title="Sound-track">Sound-track</a></li>
+            <li><a href="each_genre.html" title="J-pop">J-pop</a></li>
+            <li><a href="each_genre.html" title="K-pop">K-pop</a></li>
+            <li><a href="each_genre.html" title="Hiphop">Hiphop</a></li>
+            <li><a href="each_genre.html" title="classic">classic</a></li>
+            <li><a href="each_genre.html" title="Kids">Kids</a></li>
+            <li><a href="each_genre.html" title="Anime">Anime</a></li>
+            <li><a href="each_genre.html" title="Sound-track">Sound-track</a></li>
           </h3>
           </div>
     </div>
@@ -74,6 +78,7 @@
               <td>出身地は大阪。1975年11月22日生まれの蠍座。血液型はAB型。趣味は、入浴・寝る・犬とAIKOらしい感じ。好きな服も古着と、これまたAIKOっぽい。いつでも自然体で音楽に自分の感情・想い・愛情を注ぎ込むアーティストAIKO。その歌詞は特に女性を中心に共感の嵐。しかし男性が聞いても、見事にやられます。そして抜群のメロディー。AIKO節とでも呼びたくなるメロは、1度聴くと忘れません。初恋や淡い想い...</td>
             </tr>
           </table>
+        </div>
           </div>
         </div>
         <table class="table">
@@ -82,9 +87,9 @@
             <thead>
               <th colspan="4">ディスコグラフィー</th>
             </thead>
+          </table>
             <tr>
               <td colspan="4">
-
                 <div class="cd-box">
                   <a href="cd_show.html"><img class="cd_image" src="cd_image/aiko0.jpg"></a><br>
                     <table class="table">
@@ -292,8 +297,12 @@
                       <td><a href="favorite_artist.html">aiko</a></td>
                     </tr>
                   </table>
+
+
+
                 </div>
             </tbody>
           </table>
         </div>
+
 

@@ -20,11 +20,11 @@
     <header class="navbar-fixed-top">
     <!-- nav -->
         <nav class="clearfix">
-          <div class="title">sugerdog。</div>
-      <div class="search-box">
-        <div class="search-title">search</div>
-          <input type="text" class="form-control">
-      </div>
+       		<div class="title">sugerdog。</div>
+		 	<div class="search-box">
+				<div class="search-title">search</div>
+		  		<input type="text" class="form-control">
+			</div>
         <ul class="nav-list clearfix">
           <a href="index.html" class="nav-list-item"><div class="white"><div class="nav-text white">home</div></div></a>
             <a href="sign_up.html" class="nav-list-item"><div class="nav-text white">sign up</div></div></a>
@@ -32,17 +32,15 @@
             <a href="user.html" class="nav-list-big"><div class="nav-text white">my<br>menu</div></a>
             <a href="cart_index.html" class="nav-list-big"><li class="fa fa-shopping-cart white" style="font-size: 45px"><br><div class="nav-text white">cart</div></li></a>
         </ul>
-    </nav>
+		</nav>
     </header>
     <!-- side bar -->
 
 <div class="container-fluid"> 
   <div class="row">
-    <div class="col-lg-3">
+    <div class="col-lg-2">
     	<div class="side-bar">
-    	 	<div class="category-box">
-		    	<h4>hello User!!</h4>
-		    	<h2>my menu</h2>
+    	 	<h2>my menu</h2>
 		    	<ol>
 			    	<li><a href="user.html" >ユーザー情報の確認</a></li>
 			    	<li><a href="user_edit.html" >基本情報の編集</a></li>
@@ -52,51 +50,42 @@
 			    	<li><a href="my_favorite.html">お気に入りアーティスト</li>
 			    	<li><a href="user_review.html">my review</a></li>
 			    </ol>
-	    	</div>
 		</div>
 	</div>
-	<div class="col-lg-9">
-	    <div class="main-menu">
-			<div class="container">
-				<div class="col-lg-6 col-lg-offset-3">
-					<div class="title-headline">お届け先住所の追加</div>
-						<form class="form-horizontal">
-						  <div class="form-group">
-						    <label class="control-label col-sm-2" for="zipcode">郵便番号:</label>
-						    <div class="col-sm-10"> 
-						      <input type="integer" class="form-control" id="zipcode" placeholder="zipcode">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label class="control-label col-sm-2" for="prefecture">都道府県:</label>
-						    <div class="col-sm-10"> 
-						      <input type="integer" class="form-control" id="prefucture" placeholder="prefucture">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label class="control-label col-sm-2" for="address">住所:</label>
-						    <div class="col-sm-10"> 
-						      <input type="string" class="form-control" id="address" placeholder="address">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label class="control-label col-sm-2" for="tel">電話番号:</label>
-						    <div class="col-sm-10"> 
-						      <input type="integer" class="form-control" id="tel" placeholder="tel">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label class="control-label col-sm-2" for="address">名前</label>
-						    <div class="col-sm-10"> 
-						      <input type="string" class="form-control" id="name" placeholder="name">
-						    </div>
-						  </div>
-						  <div class="form-group"> 
-						    <div class="col-sm-offset-2 col-sm-10">
-						      <button type="submit" class="btn btn-default create">add address</button>
-						    </div>
-						  </div>
-						</form>
+    <div class="col-lg-10">
+    	<div class="main-menu">
+    		<div class="title-headline">退会のお手続き</div>
+			 <form class="form-horizontal">
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="kana">カタカナフルネーム:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="kana_name" placeholder="kana_name">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="email">メールアドレス:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="email" placeholder="email">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="password">パスワード:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="password" class="form-control" id="password" placeholder="password">
+			                    </div>
+			                </div>
+			            </form>
+			            <div class="col-sm-9">
+				            <div class="right">
+				                <a href="artist.html"><button class="btn btn-default destroy">退会する</button></a>
+				            </div>
+				        </div>
+			            <br>
+			            <br>
+			            <br>
+    				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
 				</div>
 			</div>
 	    </div>

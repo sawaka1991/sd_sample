@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <html lang="en">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="sugerdog.css">
+    <title>sugerdog.</title>
+</head>
+<body>
+    <!-- ここからコードを書きましょう -->
+    <!-- header -->
+    <header class="navbar-fixed-top">
+    <!-- nav -->
+        <nav class="clearfix">
+       		<div class="title">sugerdog。</div>
+		 	<div class="search-box">
+				<form>
+					<dl>
+						<dt><input class="search-form" type="text" name="search" placeholder="Search" value=""></dt>
+						<dd><a href="search.html"><button class="search-button fa fa-search"></button></a></dd>
+					</dl>
+				</form>
+			</div>
+		    <ul class="nav-list clearfix">
+		       	<a href="user.html" class="nav-list-big"><div class="nav-text white">my<br>menu</div></a>
+		      	<a href="sign_up.html" class="nav-list-item"><div class="nav-text white">sign up</div></div></a>
+		       	<a href="login.html" class="nav-list-item"><div class="nav-text white">login</div></div></a>
+		        <a href="index.html" class="nav-list-item"><div class="white"><div class="nav-text white">home</div></div></a>
+		        <a href="cart_index.html" class="nav-list-big"><li class="fa fa-shopping-cart white" style="font-size: 45px"><br><div class="nav-text white">cart</div></li></a>
+		    </ul>
+		</nav>
+    </header>
+    <!-- side bar -->
+
+<div class="container-fluid"> 
+  <div class="row">
+    <div class="col-lg-2">
+    	<div class="side-bar">
+    	 	<div class="category-box">
+		    	<h2>category</h2>
+		    	<h3>
+			    	<li><a href="" title="J-pop">J-pop</a></li>
+			    	<li><a href="" title="K-pop">K-pop</a></li>
+			    	<li><a href="" title="Hiphop">Hiphop</a></li>
+			    	<li><a href="" title="classic">classic</a></li>
+			    	<li><a href="" title="Kids">Kids</a></li>
+			    	<li><a href="" title="Anime">Anime</a></li>
+			    	<li><a href="" title="Sound-track">Sound-track</a></li>
+		    	</h3>
+    	  	</div>
+		</div>
+	</div>
+    <div class="col-lg-10">
+    	<div class="main-menu">
+    		<div class="title-headline">Sign Up</div>
+			 <form class="form-horizontal">
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="image">姓:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="last_name" placeholder="last_name">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="first_name">名:</label>
+			                    <div class="col-sm-6">
+			                        <input type="string" class="form-control" id="first_name" placeholder="artist_name">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="kana_name">カタカナフルネーム:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="kana_name" placeholder="kana_name">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="zipcode">郵便番号:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="zipcode" placeholder="zipcode">
+			                    </div>
+			                </div>
+		                    <div class="form-group">
+			                    <label for="sel1" class="control-label col-sm-3" for="prefucture">都道府県:</label>
+			                    <div class="col-sm-6"> 
+			                      	<select class="form-control" id="sel1">
+			                        	<option>北海道</option>
+			                        	<option>岩手</option>
+			                        	<option>秋田</option>
+			                        	<option>埼玉</option>
+			                        	<option>東京</option>
+			                     	</select>
+		                    	</div>
+		                	</div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="address">住所:</label>
+			                    <div class="col-sm-6"> 
+			                        <textarea type="text" class="form-control" id="address" placeholder="address" rows="5">
+			                        </textarea>
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="email">メールアドレス:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="email" placeholder="email">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="password">パスワード:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="password" class="form-control" id="password" placeholder="password">
+			                    </div>
+			                </div>
+			                <div class="form-group">
+			                    <label class="control-label col-sm-3 nav-text" for="password">パスワード確認:</label>
+			                    <div class="col-sm-6"> 
+			                        <input type="string" class="form-control" id="password" placeholder="password">
+			                    </div>
+			                </div>
+			            </form>
+			            <div class="col-sm-9">
+				            <div class="right">
+				                <a href="artist.html"><button class="btn btn-default create">create</button></a>
+				            </div>
+				        </div>
+			            <br>
+			            <br>
+			            <br>
+    				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
+				</div>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    <!-- footer -->
+
+    <!-- ここまでのあいだにコードを書きましょう -->
+</body>
+</html>
